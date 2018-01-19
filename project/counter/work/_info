@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/student/Desktop/HV_project/project/counter
+Ycommand_if
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1516322951
+!i10b 1
+!s100 idlYk5hDlfK6ec;?TU5?j1
+IFgdM=c;L6M?S:g2QLIZN22
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 command_if_sv_unit
+S1
+R0
+w1516200750
+8agent/command_if.sv
+Fagent/command_if.sv
+L0 1
+Z4 OL;L;10.5;63
+r1
+!s85 0
+31
+Z5 !s108 1516322951.000000
+Z6 !s107 test.sv|env.sv|agent\agent.sv|agent\..\predictor\predictor.sv|agent\..\scoreboard\scoreboard.sv|agent\monitor.sv|agent\driver.sv|agent\command_sequence_3.sv|agent\command_sequence_2.sv|agent\command_sequence_1.sv|agent\command_sequence.sv|agent\command_transaction.sv|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top.sv|agent/command_if.sv|agent/counter_pkg.sv|
+Z7 !s90 -reportprogress|300|-f|tb.f|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+Ecounter
+Z10 w1516191024
+Z11 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z12 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z15 8dut/counter.vhd
+Z16 Fdut/counter.vhd
+l0
+L6
+V`dKXXOP4>cWnAiVF]D:D>2
+!s100 @@fUWej^5cIQbWmDG4j?I3
+Z17 OL;C;10.5;63
+32
+Z18 !s110 1516322950
+!i10b 1
+Z19 !s108 1516322950.000000
+Z20 !s90 -reportprogress|300|-f|dut.f|
+Z21 !s107 dut/counter.vhd|
+!i113 0
+Z22 tExplicit 1 CvgOpt 0
+Abehavioral
+R11
+R12
+R13
+R14
+DEx4 work 7 counter 0 22 `dKXXOP4>cWnAiVF]D:D>2
+l29
+L20
+VLD0FLj0DG>320zP7Uzc=U0
+!s100 9YEC2ne`Dg18h7;?Q9nn>1
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+Xcounter_pkg
+!s115 command_if
+R1
+Z23 DXx6 mtiUvm 7 uvm_pkg 0 22 oMKUklN?>LE6@MJe7=2><1
+R2
+!i10b 1
+!s100 fobj9FND:^BY`k8jl=@Fa3
+ID^P<Unh2SzG4YB;SUJik42
+VD^P<Unh2SzG4YB;SUJik42
+S1
+R0
+w1516322938
+8agent/counter_pkg.sv
+Fagent/counter_pkg.sv
+Z24 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z25 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z26 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z27 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z28 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z29 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z30 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z31 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z32 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z33 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z34 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z35 FC:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Fagent\command_transaction.sv
+Fagent\command_sequence.sv
+Fagent\command_sequence_1.sv
+Fagent\command_sequence_2.sv
+Fagent\command_sequence_3.sv
+Fagent\driver.sv
+Fagent\monitor.sv
+Fagent\..\scoreboard\scoreboard.sv
+Fagent\..\predictor\predictor.sv
+Fagent\agent.sv
+Fenv.sv
+Ftest.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+vtop
+R1
+R23
+DXx4 work 11 counter_pkg 0 22 D^P<Unh2SzG4YB;SUJik42
+R2
+!i10b 1
+!s100 n@LiZ5oRD<P4d8KSoiiL;0
+IEA5@K;YET96oCH7>>=P]j1
+R3
+!s105 top_sv_unit
+S1
+R0
+w1516203057
+8top.sv
+Ftop.sv
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+Ttop_optimized
+R2
+V?>[N4zVKmFeWX1WIWzib>2
+04 3 4 work top fast 0
+o+acc +cover=sbfec+adder(rtl).
+R9
+ntop_optimized
+OL;O;10.5;63

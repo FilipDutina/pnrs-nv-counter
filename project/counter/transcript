@@ -1,0 +1,285 @@
+# //  Questa Sim-64
+# //  Version 10.5 win64 Feb 13 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 14:29:45 on Jan 12,2018
+# vcom -reportprogress 300 -f dut.f 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity adder
+# -- Compiling architecture rtl of adder
+# End time: 14:29:45 on Jan 12,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 14:29:45 on Jan 12,2018
+# vlog -reportprogress 300 -f tb.f 
+# -- Compiling package adder_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) agent/adder_pkg.sv(3): Using implicit +incdir+C:/questasim64_10.5/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling interface command_if
+# -- Compiling module top
+# -- Importing package adder_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 14:29:45 on Jan 12,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 14:29:45 on Jan 12,2018
+# vopt -reportprogress 300 top -o top_optimized "+acc" "+cover=sbfec+adder(rtl)." 
+# 
+# Top level modules:
+# 	top
+# 
+# Analyzing design...
+# -- Loading module top
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package adder_pkg
+# -- Loading interface command_if
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading entity adder
+# -- Loading architecture rtl of adder
+# -- Loading package mtiUvm.questa_uvm_pkg
+# Optimizing 7 design-units (inlining 0/1 module instances, 0/0 UDP instances):
+# -- Optimizing architecture rtl of adder
+# -- Optimizing module top(fast)
+# -- Optimizing interface command_if(fast)
+# -- Optimizing interface command_if(fast)
+# -- Optimizing package adder_pkg(fast)
+# -- Optimizing package mtiUvm.questa_uvm_pkg(fast)
+# -- Optimizing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)(fast)
+# Optimized design name is top_optimized
+# End time: 14:29:47 on Jan 12,2018, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim top_optimized -coverage -classdebug -uvmcontrol=all 
+# Start time: 14:29:47 on Jan 12,2018
+# Loading sv_std.std
+# Loading work.command_if(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.adder_pkg(fast)
+# Loading work.top(fast)
+# Loading work.command_if(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.adder(rtl)#1
+# Loading C:/questasim64_10.5/uvm-1.1d\win64\uvm_dpi.dll
+# 1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sanjin  Hostname: RTRKW784  ProcessID: 10120
+#           Attempting to use alternate WLF file "./wlftb6c8i6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftb6c8i6
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(all)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# **************************************************************************
+# * Questa UVM Transaction Recording Turned ON.                            *
+# * recording_detail has been set.                                         *
+# *  To turn off, set 'recording_detail' to off:                           *
+# * uvm_config_db#(int)            ::set(null, "", "recording_detail", 0); *
+# * uvm_config_db#(uvm_bitstream_t)::set(null, "", "recording_detail", 0); *
+# **************************************************************************
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @807                                    
+#   operand_A                    integral             8     'h82                                    
+#   operand_B                    integral             8     'h8c                                    
+#   valid                        integral             1     'h1                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    0                                       
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @836                                    
+#   operand_A                    integral             8     'h53                                    
+#   operand_B                    integral             8     'hf4                                    
+#   valid                        integral             1     'h0                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    10                                      
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @840                                    
+#   operand_A                    integral             8     'hf0                                    
+#   operand_B                    integral             8     'h31                                    
+#   valid                        integral             1     'h1                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    30                                      
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @844                                    
+#   operand_A                    integral             8     'h1c                                    
+#   operand_B                    integral             8     'hd4                                    
+#   valid                        integral             1     'h0                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    50                                      
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @848                                    
+#   operand_A                    integral             8     'hd1                                    
+#   operand_B                    integral             8     'h39                                    
+#   valid                        integral             1     'h0                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    70                                      
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @852                                    
+#   operand_A                    integral             8     'h21                                    
+#   operand_B                    integral             8     'h93                                    
+#   valid                        integral             1     'h1                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    90                                      
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @856                                    
+#   operand_A                    integral             8     'h15                                    
+#   operand_B                    integral             8     'hc4                                    
+#   valid                        integral             1     'h1                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    110                                     
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @860                                    
+#   operand_A                    integral             8     'h34                                    
+#   operand_B                    integral             8     'hb                                     
+#   valid                        integral             1     'h1                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    130                                     
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @864                                    
+#   operand_A                    integral             8     'h79                                    
+#   operand_B                    integral             8     'h8                                     
+#   valid                        integral             1     'h1                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    150                                     
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# Name                           Type                 Size  Value                                   
+# --------------------------------------------------------------------------------------------------
+# tx                             command_transaction  -     @868                                    
+#   operand_A                    integral             8     'h5f                                    
+#   operand_B                    integral             8     'ha3                                    
+#   valid                        integral             1     'h1                                     
+#   result_queue                 da(integral)         0     -                                       
+#   begin_time                   time                 64    170                                     
+#   depth                        int                  32    'd2                                     
+#   parent sequence (name)       string               3     seq                                     
+#   parent sequence (full name)  string               40    uvm_test_top.env.m_agent.m_sequencer.seq
+#   sequencer                    string               36    uvm_test_top.env.m_agent.m_sequencer    
+# --------------------------------------------------------------------------------------------------
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 2210: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO agent\..\scoreboard\scoreboard.sv(82) @ 2210: uvm_test_top.env.m_scoreboard [SCBD] 
+# Number of recorded missmatches : 0
+# UVM_INFO agent\..\scoreboard\scoreboard.sv(83) @ 2210: uvm_test_top.env.m_scoreboard [SCBD] 
+# Number of recorded matches : 6
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    6
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCBD]     2
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.5/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 2210 ns  Iteration: 54  Instance: /top
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.5/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+quit
+# End time: 14:29:56 on Jan 12,2018, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 2
